@@ -2,7 +2,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-body, header, footer, .links {
+body, header, footer, .links, .hero, .left-hero {
     display: flex;
 }
 
@@ -33,7 +33,8 @@ footer {
 
 .links a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .links {
@@ -41,4 +42,48 @@ footer {
     padding: 0;
     margin: 0;
     gap: 16px;
+}
+
+.hero {
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    margin-bottom: auto;
+}
+
+.left-hero {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.hero-text1 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 440px;
+}
+
+.hero-text2 {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 440px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 22px;
+    align-self: flex-start;
+}
+
+.placeholder {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }
