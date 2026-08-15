@@ -1,6 +1,6 @@
 # Landing Page
 
-This project will let me create a basic landing page based on the design below.
+This project will let me create a basic landing page based on the design below. Currently landing page only works properly on a computer, will update to have a mobile versions later.
 
 ## Design
 
