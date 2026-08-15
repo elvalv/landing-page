@@ -6,7 +6,8 @@ body, header, footer,
 .links, .hero, .left-hero,
 .rando-info, .image-info,
 .image-info div, .quote-section,
-.quote-section div {
+.quote-section div, .call-container,
+.call-to-action, .call-text {
     display: flex;
 }
 
@@ -130,6 +131,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 80px;
 }
 
 .quote {
@@ -143,4 +145,38 @@ footer {
     font-size: 24px;
     align-self: flex-end;
     margin: 0;
+}
+
+.call-container {
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 900px;
+    justify-content: space-around;
+}
+
+.call-text p {
+    margin: 0;
+}
+
+.call-title {
+    font-size: 20px;
+}
+
+.call-sign-up {
+    border: 2px solid #E5E7EB;
+}
+
+.call-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
 }

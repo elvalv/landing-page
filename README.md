@@ -1,10 +1,14 @@
 # Landing Page
 
-This project will let me create a basic landing page based on the design bellow.
+This project will let me create a basic landing page based on the design below.
 
 ## Design
 
 ![design](./page-design.png)
+
+## Link
+
+[Click Here For Website](https://elvalv.github.io/landing-page/index.html)
 
 ## Credits
 
