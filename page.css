@@ -83,6 +83,9 @@ footer {
     border: 0;
     border-radius: 5px;
     padding: 6px 22px;
+}
+
+.hero-sign-up {
     align-self: flex-start;
 }
 
@@ -161,6 +164,7 @@ footer {
     padding-bottom: 50px;
     width: 900px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .call-text p {
