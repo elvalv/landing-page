@@ -2,7 +2,11 @@
     font-family: "Roboto", sans-serif;
 }
 
-body, header, footer, .links, .hero, .left-hero, .rando-info, .image-info, .image-info div {
+body, header, footer,
+.links, .hero, .left-hero,
+.rando-info, .image-info,
+.image-info div, .quote-section,
+.quote-section div {
     display: flex;
 }
 
@@ -115,4 +119,28 @@ footer {
 .image-info div {
     flex-direction: column;
     align-items: center;
+}
+
+.quote-section div {
+    max-width: 900px;
+    flex-direction: column;
+}
+
+.quote-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.quote-author {
+    font-size: 24px;
+    align-self: flex-end;
+    margin: 0;
 }
